@@ -177,7 +177,7 @@ export default function Services() {
     { 
       icon: "🛒", 
       title: "Online Ordering System", 
-      price: "LKR 65,000",
+      price: "LKR 55,000",
       desc: "Allow customers to browse products and place orders directly from your website.", 
       features: ["Product catalog & shopping cart", "Order via WhatsApp or website checkout", "Payment gateway integration available", "Fully mobile responsive","Perfect for restaurants, cafés & small stores","Delivered in 7-14 days"], 
       featured: false 
