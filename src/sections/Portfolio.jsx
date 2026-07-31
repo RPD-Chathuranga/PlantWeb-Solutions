@@ -1,10 +1,11 @@
 import { useState } from "react";
 import T from "../tokens";
 import Reveal from "../components/Reveal";
-import auramImg from "../assets/auram.jpg";
-import lumiereImg from "../assets/lumiere.jpg";
-import bakeryImg from "../assets/bakery.jpg";
-import textileImg from "../assets/textile.jpg";
+import auramImg from "../assets/auramIMG.jpg";
+import lumiereImg from "../assets/lumiereImg.jpg";
+import bakeryImg from "../assets/bakeryImg.jpg";
+import textileImg from "../assets/textileImg.jpg";
+import posIMG from "../assets/posIMG.png";
 
 const PROJECTS = [
   {
@@ -14,7 +15,7 @@ const PROJECTS = [
     color: "#0d2b1f",
     accent: T.lime,
     image: auramImg,
-    link: "https://auram-finedining.netlify.app/",
+    link: "https://auram-fine-dining.netlify.app/",
   },
   {
     cat: "Beauty & Wellness",
@@ -23,7 +24,7 @@ const PROJECTS = [
     color: "#1f0a2b",
     accent: "#e879f9",
     image: lumiereImg,
-    link: "https://luimierepremiumsaloon.netlify.app/",
+    link: "https://luimere-premium-saloon.netlify.app/",
   },
   {
     cat: "Bakery & Shop",
@@ -32,7 +33,7 @@ const PROJECTS = [
     color: "#2b1200",
     accent: "#fb923c",
     image: bakeryImg,
-    link: "https://bakeryshop454.netlify.app/",
+    link: "https://bakery-shop9.netlify.app/",
   },
   {
     cat: "Fashion & Textile",
@@ -41,7 +42,16 @@ const PROJECTS = [
     color: "#0f1e35",
     accent: "#60a5fa",
     image: textileImg,
-    link: "https://jayathissatextile.netlify.app/",
+    link: "https://jayathiisa-textile.netlify.app/",
+  },
+  {
+    cat: "Retail POS System",
+    name: "PlantWeb POS System",
+    desc: "Fully featured POS system for businesses, built with responsive UI, inventory controls, and checkout workflows.",
+    color: "#1e293b",
+    accent: "#34d399",
+    image: posIMG,
+    link: "https://plantweb-pos-system-demo.netlify.app/",
   },
 ];
 

@@ -5,7 +5,7 @@ import Counter from '../components/Counter';
 
 export default function Stats() {
   const stats = [
-    { num: 50, suffix: "+", label: "Websites Delivered" },
+    { num: 15, suffix: "+", label: "Websites Delivered" },
     { num: 7, suffix: "d", label: "Avg. Delivery Time" },
     { num: 100, suffix: "%", label: "Mobile Optimized" },
     { num: 5, suffix: "★", label: "Client Rating" },
