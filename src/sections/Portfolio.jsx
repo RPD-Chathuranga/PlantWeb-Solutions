@@ -6,8 +6,27 @@ import lumiereImg from "../assets/lumiereImg.jpg";
 import bakeryImg from "../assets/bakeryImg.jpg";
 import textileImg from "../assets/textileImg.jpg";
 import posIMG from "../assets/posIMG.png";
+import MarkAI from "../assets/mark AI.png";
 
 const PROJECTS = [
+  {
+    cat: "Education & Assessment",
+    name: "Paper Marking System",
+    desc: "Digital paper marking system for organizing assessments, reviewing submissions, and managing results efficiently.",
+    color: "#102a43",
+    accent: "#38bdf8",
+    image: MarkAI,
+    link: "https://markaido.netlify.app/",
+  },
+   {
+    cat: "Retail POS System",
+    name: "PlantWeb POS System",
+    desc: "Fully featured POS system for businesses, built with responsive UI, inventory controls, and checkout workflows.",
+    color: "#1e293b",
+    accent: "#34d399",
+    image: posIMG,
+    link: "https://plantweb-pos-system-demo.netlify.app/",
+  },
   {
     cat: "Restaurant & Food",
     name: "Auram Fine Dining",
@@ -44,15 +63,7 @@ const PROJECTS = [
     image: textileImg,
     link: "https://jayathiisa-textile.netlify.app/",
   },
-  {
-    cat: "Retail POS System",
-    name: "PlantWeb POS System",
-    desc: "Fully featured POS system for businesses, built with responsive UI, inventory controls, and checkout workflows.",
-    color: "#1e293b",
-    accent: "#34d399",
-    image: posIMG,
-    link: "https://plantweb-pos-system-demo.netlify.app/",
-  },
+
 ];
 
 function GreenBtn({ href, children }) {
