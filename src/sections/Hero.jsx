@@ -21,7 +21,7 @@ function HeroBrowserMockup() {
       <div style={{ background: T.bg, padding: "10px 14px", display: "flex", alignItems: "center", gap: 8, borderBottom: `1px solid ${T.border}` }}>
         {["#ff5f57", "#febc2e", "#28c840"].map(c => <div key={c} style={{ width: 10, height: 10, borderRadius: "50%", background: c }} />)}
         <div style={{ flex: 1, background: "rgba(0,0,0,0.05)", borderRadius: 4, height: 20, marginLeft: 8, display: "flex", alignItems: "center", paddingLeft: 10 }}>
-          <span style={{ fontSize: "0.68rem", color: T.textLight, fontFamily: "'DM Mono',monospace" }}>yourclientbusiness.com</span>
+          <span style={{ fontSize: "0.68rem", color: T.textLight, fontFamily: "'DM Mono',monospace" }}>yourcompany.com</span>
         </div>
       </div>
       {/* Hero bar */}
